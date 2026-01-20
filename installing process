@@ -1,0 +1,30 @@
+Install Core Libraries:
+
+Run: pip install flask flask-cors textblob sqlalchemy pytest.
+This installs:
+Flask: Web framework.
+Flask-CORS: Cross-origin handling.
+TextBlob: NLP for sentiment analysis.
+SQLAlchemy: Database ORM.
+Pytest: Testing framework.
+Download TextBlob Data:
+
+Run: python -m textblob.download_corpora.
+This is required for TextBlob to work properly.
+Verify Installation:
+
+Run: python -c "import flask, flask_cors, textblob, sqlalchemy, pytest; print('All libraries installed successfully').
+If no errors, you're ready.
+Run the Chatbot:
+
+Execute: python app.py.
+Open http://127.0.0.0:5000/ in a browser to test.
+Troubleshooting
+Permission Errors: Run as administrator or use python -m pip install.
+Virtual Environment: For isolation, create one with python -m venv venv and activate with venv\Scripts\activate (Windows).
+Errors: Share the full error message for help.
+Once installed, the chatbot is ready for development or deployment. For mental health support, consult professionals.
+
+
+
+Copy
