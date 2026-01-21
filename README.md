@@ -1,4 +1,4 @@
-# AI-Helth campanian chat-bot-
+# AI- mental Helth campanian chat-bot-
 
 Architecture Overview
 Front-end: A web page with a chat box. Users type messages, which are sent to the back-end via AJAX.
